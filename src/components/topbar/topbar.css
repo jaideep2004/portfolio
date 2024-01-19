@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: black;
+	font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+	
+	
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px cyan; 
+	border-radius: 10px;
+	
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: cyan; 
+	border-radius: 8px;
+	
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: orange; 
+  }
+
+.topbar {
+	/* border: 1px solid white; */
+	width: 100%;
+    position: fixed;
+	display: flex;
+	z-index: 2;
+	top: 0px;
+align-items: center;
+border-radius: 7px;
+padding-left: 83px;
+padding-top: 17px;
+
+
+
+}
+.logocontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.logo {
+	font-family: "Lobster", sans-serif;
+	font-size: 60px;
+	color: cyan;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 1s ease;
+	
+	&:hover {
+		scale: 1.2;
+	}
+}
+
+
+.linkscontainer {
+	/* border: 1px solid yellow; */
+	display: flex;
+	margin-left: 510px;
+	align-items: center;
+	gap: 60px;
+	
+}
+
+.btncontain{
+	width: fit-content;
+	height: 30px;
+	/* background-color: blue; */
+	/* border: 1px solid red; */
+	
+}
+.navbuttons {
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 5px;
+	/* margin: 7px 40px; */
+	font-size: 22px;
+	font-weight: 800;
+	color: white;
+	transition: all 0.3s ease;
+	
+	&:hover {
+		box-shadow: 0px 2px 2px cyan;
+			transform: translateY(-10px);
+			
+
+
+	}
+}
+.navbuttons> a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 2px;
+	
+	&:hover{
+		color: cyan;
+	}
+}

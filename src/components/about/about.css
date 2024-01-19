@@ -1,0 +1,80 @@
+#about{
+    color: white;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+      
+    /* border: 1px solid white; */
+     
+}
+.abouthead{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 70px;
+    /* border: 1px solid white; */
+    
+}
+.profileimage{
+   /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    padding: 25px 60px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.imagecontain{
+width: 260px;
+height: 260px;
+backdrop-filter: blur(10px);
+display: flex;
+/* position: absolute; */
+border-radius: 10px;
+/* transition: all 4s ease; */
+box-shadow: 2px 2px  5px cyan inset;
+transform: translateZ(0);
+animation: changebg 4s infinite linear;
+}
+
+@keyframes changebg {
+    0%{
+        box-shadow: 2px 2px  5px cyan inset; 
+    }
+
+    100%{
+        box-shadow: 0px 2px  5px cyan inset; 
+    }
+}
+
+.imagecontain>img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -5px;
+    right: -5px;
+}
+.aboutsection{
+  
+    /* border: 1px solid white; */
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 210px;
+    margin-left: 10px;
+   text-align: center;
+   padding-right: 80px;
+   z-index: 2;
+   
+}
+.aboutdesc{
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 5px 10px cyan;
+    border-radius: 40px;
+}

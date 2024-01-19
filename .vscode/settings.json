@@ -1,0 +1,5 @@
+{
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.tabs.enableAnimation": false
+}
