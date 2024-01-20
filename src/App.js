@@ -11,6 +11,7 @@ import Skills from "./components/skills/Skills";
 import Project1 from "./components/projects/Project1";
 import Project3 from "./components/projects/Project3";
 import Project2 from "./components/projects/Project2";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -36,7 +37,8 @@ function App() {
 <Project1/>
 					<Project2/>
 					<Project3/>
-					<Contact />
+						<Contact />
+						<Footer/>
 				</main>
 			)}
 

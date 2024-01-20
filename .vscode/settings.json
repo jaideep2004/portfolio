@@ -1,5 +1,8 @@
 {
     "editor.stickyScroll.scrollWithEditor": false,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "terminal.integrated.tabs.enableAnimation": false
+    "editor.cursorSmoothCaretAnimation": "off",
+    "terminal.integrated.tabs.enableAnimation": false,
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "none",
+    "editor.quickSuggestionsDelay": 1
 }

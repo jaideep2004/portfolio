@@ -5,13 +5,14 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function About() {
+	
 	useEffect(() => {
 		AOS.init();
 	}, []);
 
 	return (
 		<div id='about'>
-			<div className='aboutcontainer'>
+			<div className='aboutcontainer' >
 				<div className='profileimage'
 					data-aos='fade-right'
 					data-aos-duration='500'>
@@ -24,7 +25,8 @@ export default function About() {
 				</div>
 
 				<div className='aboutsection' >
-					<div className='aboutdesc'>
+					<div className='aboutdesc' data-aos='zoom-in'
+					data-aos-duration='500'>
 						<p>
 							Hi! I am Jaideep Singh. I am a 2nd year student of B.Voc. Software
 							Development at Khalsa College, Patiala . From my childhood, I was

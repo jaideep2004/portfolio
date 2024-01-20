@@ -39,8 +39,8 @@
 .projecthead {
 	font-size: 35px;
 	font-weight: 700;
-	display: block;
-	margin-top: 50px;
+	
+	margin-top: 70px;
 	/* border: 1px solid white; */
 }
 .leftcontain1 {
@@ -49,8 +49,8 @@
 	flex-direction: column;
 	padding: 25px 60px;
 	z-index: 2;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center; */
+	/* justify-content: center; */
 }
 .rightcontain1 {
 	/* border: 1px solid green; */
@@ -69,6 +69,7 @@
 	/* margin-top: 180px; */
 	margin-left: 60px;
 	z-index: 2;
+	
 }
 .rightcontain2 {
 	/* border: 1px solid white; */
@@ -80,6 +81,7 @@
 	z-index: 2;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .leftcontain3 {

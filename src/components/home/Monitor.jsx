@@ -9,7 +9,7 @@ const Monitor = () => {
 					<div id='screen'>
 						<div id='sidescreen'>
 							<div id='tpbar'>
-								<span>----</span></div>
+								<span>;</span></div>
 							<div className='screenopt'>
 								<div className='opt1'></div>
 								<div className='opt2'></div>

@@ -1,4 +1,5 @@
 html {
+	/* scroll-snap-type: y mandatory; */
 	scroll-snap-type: y mandatory;
 	scroll-behavior: smooth;
 }
@@ -24,8 +25,8 @@ html {
 	align-items: center;
 }
 .circle1 {
-	width: 10px;
-	height: 10px;
+	width: 9px;
+	height: 9px;
 	position: absolute;
 	top: 10px;
 	right: -190px;
@@ -36,14 +37,14 @@ html {
 		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
 			border-box;
 	border: 2px solid transparent;
-	animation: bganimate1 9s infinite linear;
+	animation: bganimate1 10s infinite linear;
 }
 @keyframes bganimate1 {
 	0% {
 		transform: translate(0px, 20px);
 	}
 	100% {
-		transform: translate(-600px, 2000px);
+		transform: translate(-800px, 3000px);
 	}
 }
 .circle2 {
@@ -70,8 +71,8 @@ html {
 	}
 }
 .circle3 {
-	width: 9px;
-	height: 9px;
+	width: 8px;
+	height: 8px;
 	position: absolute;
 	top: 10px;
 	right: 510px;
@@ -93,8 +94,8 @@ html {
 	}
 }
 .circle4 {
-	width: 10px;
-	height: 10px;
+	width: 9px;
+	height: 9px;
 	position: absolute;
 	top: 10px;
 	right: 710px;
@@ -159,17 +160,23 @@ html {
 .name {
 	display: flex;
 	flex-direction: column;
-	
+	color: cyan;
+	font-size: 38px;
 	font-weight: 800;
 	/* border: 1px solid white; */
 	align-items: center;
-	transition: all 1s ease;
+	transition: all 0.5s ease;
 	z-index: 2;
 	flex: 1;
 	justify-content: center;
 	padding-left: 30px;
 }
+.typeanimation{
+	/* background-color: red; */
+	transition: all 0.5s ease;
+}
 #name1{
+	/* border: 1px solid white; */
 	display: flex;
 	flex-direction: column;
 	font-size: 40px;
@@ -179,13 +186,20 @@ html {
 	/* margin-left: 60px; */
 	align-items: center;
 	justify-content: center;
+	transition: all 0.5s ease;
 }
 #name1>div{
 	backdrop-filter: blur(3px);
 	border-radius: 10px;
 	margin-bottom: 13px;
-	padding: 5px;
+	padding: 7px;
+	transition: all 0.5s ease;
 	box-shadow: inset 0px 2px 10px cyan;
+
+	&:hover{
+		transform: translateX(-3px);
+		transform: translateY(-3px);
+	}
 }
 .heroimage {
 	font-size: 40px;

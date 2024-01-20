@@ -1,11 +1,19 @@
 import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Project3 = () => {
+
+    useEffect(() => {
+		AOS.init();
+    }, []);
+    
     return (
         <div id='project3'>
              <div className='project2contain'>
 				<div className='leftcontain3'>
-                <div className='projimg2'>
+                <div className='projimg2'  data-aos="flip-left" data-aos-duration='500'>
 							<img src='./assets/p6.png' alt='' />
 						</div>
 					
