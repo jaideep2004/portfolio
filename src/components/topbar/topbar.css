@@ -6,7 +6,7 @@ body {
 	overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 }
 
 /* Track */
@@ -105,8 +105,14 @@ body {
 
 @media only screen and (max-width: 768px) {
 
+	::-webkit-scrollbar {
+		display: none;
+	}
+
 	body{
 		overflow-x: hidden;
+		
+		
 	}
 	html {
 		overflow-x: hidden;
@@ -126,11 +132,13 @@ body {
 	padding-bottom: 5px;
 }
 	#mmenu {
+		position: absolute;
 		color: white;
 		display: flex;
 		flex-direction: column;
 		cursor: pointer;
-		margin-left: 235px;
+		top: 20px;
+		right: 40px;
 		z-index: 2;
 	}
 
@@ -182,25 +190,27 @@ body {
 		margin-top: 70px;
 	}
 	#name1 > div {
-		width: 230px;
+		width: 240px;
 	}
 
 	.hero {
 		flex-direction: column;
+		
 	}
 
 	.aboutcontainer {
+		
 		flex-direction: column;
 	}
 
 	.abouthead {
-		margin-top: 140px;
+		margin-top: 60px;
 	}
 	.profileimage {
 		z-index: 1;
 	}
 	.aboutsection {
-		margin-top: 10px;
+		margin-top: 15px;
 		margin-right: -70px;
 		margin-left: 20px;
 		z-index: 1;
@@ -210,7 +220,7 @@ body {
 		flex-direction: column;
 	}
 	.skillcontain2 {
-		margin-top: 410px;
+		margin-top: 280px;
 		z-index: 1;
 	}
 	.skillsdesc {
@@ -219,7 +229,7 @@ body {
 	.skillright {
 		scale: 0.75;
 		margin-right: 190px;
-		margin-top: -130px;
+		margin-top: -140px;
 	}
 	.leftcontain1 {
 		align-items: center;
@@ -232,19 +242,19 @@ body {
 
 	.project1contain {
 		flex-direction: column;
-		margin-top: 700px;
+		margin-top: 450px;
 		z-index: 1;
 	}
 
 	.projimg {
 		scale: 0.56;
-		margin-top: -60px;
+		margin-top: -70px;
 	}
 
 	.projectdesc1 {
-		margin-top: -280px;
-		margin-left: 30px;
-		margin-right: -40px;
+		margin-top: -310px;
+		margin-left: 20px;
+		margin-right: -50px;
 	}
 
 	.project2contain {
@@ -253,7 +263,7 @@ body {
 
 	.projimg2 {
 		scale: 0.56;
-		margin-top: 80px;
+		
 		
 	}
 	.leftcontain2{
@@ -262,19 +272,20 @@ body {
 		
 	}
 	.rightcontain2{
+		margin-top: -90px;
 		order: 1;
 		z-index: 1;
 	}
 	.projectdesc2{
-		margin-top: -20px;
-		margin-right: 30px;
+		margin-top: -70px;
+		margin-right: 20px;
 		margin-left: -40px;
 
 	}
 	.projectdesc3{
-		margin-top: -20px;
-		margin-left: 30px;
-		margin-right: -40px;
+		margin-top: -70px;
+		margin-left: 20px;
+		margin-right: -50px;
 
 	}
 	
@@ -282,7 +293,7 @@ body {
 		flex-direction: column;
 	}
 	.leftcontain3{
-		
+		margin-top: -310px;
 		z-index: 1;
 		
 	}
@@ -293,11 +304,12 @@ body {
 
 .contactcontain{
 	flex-direction: column;
+	margin-top: -520px;
 }
 .conform{
 	scale: 0.9;
-	margin-top: -40px;
-	z-index: 1;
+	
+	/* z-index: 1; */
 }
 .contactright{
 	margin-left: 0px;
@@ -305,7 +317,7 @@ body {
 }
 
 .footcontain{
-margin-top: 400px;
+margin-top: 290px;
 }
 
 

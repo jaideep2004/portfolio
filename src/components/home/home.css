@@ -114,6 +114,7 @@ html {
 		transform: translate(-1300px, 2000px);
 	}
 }
+
 .circle5 {
 	width: 9px;
 	height: 9px;
@@ -152,6 +153,7 @@ html {
 	color: white;
 	align-items: center;
 	justify-content: center;
+	
 }
 .name {
 	display: flex;
@@ -163,41 +165,61 @@ html {
 	align-items: center;
 	transition: all 0.5s ease;
 	z-index: 2;
-	flex: 1;
+	
 	justify-content: center;
-	padding-left: 30px;
-	height: 200px;
+	padding: 25px 60px;
+	
+	
 }
 .typeanimation {
-	
-	
+	/* text-align: center; */
 	transition: all 0.5s ease;
+	padding: 10px 20px;
 	backdrop-filter: blur(3px);
 	border-radius: 10px;
 	box-shadow: inset 0px 2px 10px cyan;
-	padding: 10px 15px;
 }
 #name1 {
 	width: 400px;
-	/* border: 1px solid white; */
+	/* border: 1px solid cyan; */
+	
 	display: flex;
 	flex-direction: column;
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 700;
 	color: white;
-	padding-top: 15px;
-	/* margin-left: 60px; */
+	margin-top: 20px;
 	align-items: center;
 	justify-content: center;
 	transition: all 0.5s ease;
+	
+}
+@keyframes rgbanimate {
+	0%{
+		background: linear-gradient(black, black) padding-box,
+		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
+			border-box;
+	}
+	50%{
+		background: linear-gradient(black, black) padding-box,
+		 linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	}
+	100%{
+		background: linear-gradient(black, black) padding-box,
+		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
+			border-box;
+	}
 }
 #name1 > div {
-	backdrop-filter: blur(3px);
-	border-radius: 10px;
-	/* margin-bottom: 13px; */
-	padding: 7px;
-	transition: all 0.5s ease;
-	box-shadow: inset 0px 2px 10px cyan;
+/* border: 1px solid white; */
+	padding: 11px 8px;
+	transition: all 3s ease;
+	animation: rgbanimate 3s ease infinite ;
+	background: linear-gradient(black, black) padding-box,
+		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
+			border-box;
+	border: 2px solid transparent;
+	border-radius: 8px;
 
 	&:hover {
 		transform: translateX(-3px);
@@ -209,7 +231,7 @@ html {
 	/* border: 1px solid white; */
 	z-index: 2;
 	margin-left: 120px;
-	flex: 1;
+	
 }
 
 .imgcontain > div {
