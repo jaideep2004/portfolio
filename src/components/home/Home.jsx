@@ -31,17 +31,23 @@ export default function Home() {
 			</div>
 			<div className='hero'>
 				<div className='name' data-aos='fade-right' data-aos-duration='400'>
-					{loading && (
+					
 						<div className='typeanimation'>
+							JAIDEEP SINGH
+							
+						</div>
+					
+					<div id='name1'>
+					{loading && (
+						<div>
 							<TypeAnimation
 								cursor={false}
-								sequence={["JAIDEEP SINGH"]}
+								sequence={["Student || Front-End Developer"]}
 								speed={10}
 							/>
 						</div>
 					)}
-					<div id='name1'>
-						<div>Student || Front-End Developer</div>
+						{/* <div>Student || Front-End Developer</div> */}
 					</div>
 				</div>
 

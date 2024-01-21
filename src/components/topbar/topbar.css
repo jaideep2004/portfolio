@@ -103,6 +103,9 @@ body {
 	display: none;
 }
 
+
+
+
 @media only screen and (max-width: 768px) {
 
 	::-webkit-scrollbar {
@@ -132,6 +135,7 @@ body {
 	padding-bottom: 5px;
 }
 	#mmenu {
+		
 		position: absolute;
 		color: white;
 		display: flex;
@@ -141,6 +145,18 @@ body {
 		right: 40px;
 		z-index: 2;
 	}
+	#mmenu2 {
+		
+		position: absolute;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		cursor: pointer;
+		top: 30px;
+		right: 40px;
+		z-index: 2;
+	}
+	
 
 	#mmenu > div {
 		width: 36px;
@@ -181,13 +197,13 @@ body {
 
 	.heroimage {
 		z-index: 1;
-		margin-right: 100px;
+		margin-right: 110px;
 		scale: 0.8;
-		margin-top: -40px;
+		margin-top: -55px;
 	}
 	.name {
 		z-index: 1;
-		margin-top: 70px;
+		margin-top: 30px;
 	}
 	#name1 > div {
 		width: 240px;

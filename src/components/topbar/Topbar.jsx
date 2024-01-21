@@ -40,12 +40,16 @@ export default function Topbar() {
 				<div className='logo'>J</div>
 			</div>
 
+			<div id="mcross">
+				<div></div>
+				<div></div>
+			</div>
 			{/* mobile menu icon */}
 			<div onClick={handleButtonClick}>
 				{/* <i id='mobilemenuicon' class='fa-solid fa-bars fa-xl' ></i> */}
 				{isIconVisible ? (
 					<i
-						id='mmenu'
+						id='mmenu2'
 						class='fa-solid fa-circle-xmark fa-2xl'
 						data-aos='zoom-in'></i>
 				) : (
