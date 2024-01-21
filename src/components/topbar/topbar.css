@@ -104,8 +104,13 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
+	body{
+		overflow-x: hidden;
+	}
 	html {
-		scroll-snap-type: y proximity;
+		overflow-x: hidden;
+		scroll-snap-type: none;
 	}
 	.linkscontainer {
 		display: none;
