@@ -4,5 +4,6 @@
     "terminal.integrated.tabs.enableAnimation": false,
     "editor.fontSize": 15,
     "editor.renderWhitespace": "none",
-    "editor.quickSuggestionsDelay": 1
+    "editor.quickSuggestionsDelay": 1,
+    "workbench.localHistory.enabled": false
 }

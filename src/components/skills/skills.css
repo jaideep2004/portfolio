@@ -19,20 +19,22 @@
 }
 
 .skillright {
+	transition: all 0.5s ease;
 	padding-right: 20px;
-	/* border-top: 1px solid white; */
+	/* border: 1px solid white; */
 	border-left: 1px solid white;
 	border-radius: 2px;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
+	overflow-x: hidden;
 	
 }
 .skillright > div {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin: 8px 0px;
-
+	transition: all 0.5s ease;
 	height: 35px;
 	background-color: transparent;
 	backdrop-filter: blur(15px);
@@ -41,6 +43,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	&:hover{
+		transform: translateX(6px);
+		box-shadow: inset 2px 0px 15px cyan;
+	}
 }
 .skillright > div:nth-child(1) {
 	width: 430px;
@@ -129,8 +136,8 @@
 	height: 270px;
 	border-radius: 50%;
 	position: absolute;
-	transition: all 0.4s ease;
-	background-image: linear-gradient(to right, cyan 75%, transparent 30%);
+	transition: all 0.5s ease;
+	background-image: linear-gradient(to right, cyan 80%, transparent 30%);
 
 	&:hover {
 		transform: rotateZ(60deg);

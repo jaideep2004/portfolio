@@ -59,23 +59,23 @@ export default function Topbar() {
 
 			{isVisible && (
 				<div className='mobilemenu'>
-					<a href='#home' id='mo1' data-aos='zoom-in-down' data-aos-duration='500'>
-						<div className='optcontain0' onClick={handleLinkClick}>
+					<a href='#home' id='mo1' data-aos='zoom-in-down' data-aos-duration='500' onClick={handleLinkClick}>
+						<div className='optcontain0' >
 							HOME
 						</div>
 					</a>
-					<a href='#home' id='mo1' data-aos='zoom-in-down' data-aos-duration='500'>
-						<div className='optcontain0' onClick={handleLinkClick}>
+					<a href='#about' id='mo1' data-aos='zoom-in-down' data-aos-duration='500' onClick={handleLinkClick}>
+						<div className='optcontain0' >
 							ABOUT
 						</div>
 					</a>
-					<a href='#home' id='mo1' data-aos='zoom-in-down' data-aos-duration='500'>
-						<div className='optcontain0' onClick={handleLinkClick}>
+					<a href='#project1' id='mo1' data-aos='zoom-in-down' data-aos-duration='500' onClick={handleLinkClick}>
+						<div className='optcontain0' >
 							PROJECTS
 						</div>
 					</a>
-					<a href='#home' id='mo1' data-aos='zoom-in-down' data-aos-duration='500'>
-						<div className='optcontain0' onClick={handleLinkClick}>
+					<a href='#contact' id='mo1' data-aos='zoom-in-down' data-aos-duration='500' onClick={handleLinkClick}>
+						<div className='optcontain0' >
 							CONTACT
 						</div>
 					</a>

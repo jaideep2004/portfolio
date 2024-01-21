@@ -42,6 +42,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* border: 1px solid white; */
 }
 .logo {
 	font-family: "Lobster", sans-serif;
@@ -104,18 +105,21 @@ body {
 
 @media only screen and (max-width: 768px) {
 	html {
-		scroll-snap-type: none;
+		scroll-snap-type: y proximity;
 	}
 	.linkscontainer {
 		display: none;
 	}
 
 	.topbar {
-		padding-top: 3px;
+		padding-top: 1px;
 		padding-left: 30px;
 		backdrop-filter: blur(15px);
 	}
-
+.logo{
+	font-size: 55px;
+	padding-bottom: 5px;
+}
 	#mmenu {
 		color: white;
 		display: flex;
@@ -215,11 +219,16 @@ body {
 	.leftcontain1 {
 		align-items: center;
 		justify-content: center;
+		z-index: 1;
+	}
+	.rightcontain1{
+		z-index: 1;
 	}
 
 	.project1contain {
 		flex-direction: column;
 		margin-top: 700px;
+		z-index: 1;
 	}
 
 	.projimg {
@@ -244,10 +253,12 @@ body {
 	}
 	.leftcontain2{
 		order: 2;
+		z-index: 1;
 		
 	}
 	.rightcontain2{
 		order: 1;
+		z-index: 1;
 	}
 	.projectdesc2{
 		margin-top: -20px;
@@ -265,6 +276,15 @@ body {
 	.project3contain {
 		flex-direction: column;
 	}
+	.leftcontain3{
+		
+		z-index: 1;
+		
+	}
+	.rightcontain3{
+		
+		z-index: 1;
+	}
 
 .contactcontain{
 	flex-direction: column;
@@ -272,6 +292,7 @@ body {
 .conform{
 	scale: 0.9;
 	margin-top: -40px;
+	z-index: 1;
 }
 .contactright{
 	margin-left: 0px;
