@@ -112,18 +112,17 @@ body {
 
 	body {
 		overflow-x: hidden;
-overflow-y: hidden;
+		overflow-y: hidden;
 	}
-	.maincontain{
+	.maincontain {
 		background-attachment: fixed;
-		/* overflow-y: hidden; */
-		
+		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 	html {
 		overflow-x: hidden;
-		overflow-y: hidden;
-		scroll-snap-type: none;
 		
+		scroll-snap-type: none;
 	}
 	.linkscontainer {
 		display: none;
@@ -154,7 +153,7 @@ overflow-y: hidden;
 		display: flex;
 		flex-direction: column;
 		cursor: pointer;
-		top: 30px;
+		top: 40px;
 		right: 40px;
 		z-index: 2;
 	}
@@ -175,6 +174,7 @@ overflow-y: hidden;
 		top: 120px;
 		left: 25px;
 		display: flex;
+		
 		justify-content: center;
 		flex-direction: column;
 		transition: all 0.5s ease;
@@ -235,7 +235,7 @@ overflow-y: hidden;
 		flex-direction: column;
 	}
 	.skillcontain2 {
-		margin-top: 400px;
+		margin-top: 380px;
 		z-index: 1;
 	}
 	.skillsdesc {
