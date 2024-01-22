@@ -103,23 +103,23 @@ body {
 	display: none;
 }
 
-
-
-
 @media only screen and (max-width: 768px) {
-
 	::-webkit-scrollbar {
 		display: none;
 	}
 
-	body{
+	body {
 		overflow-x: hidden;
-		
+background-attachment: fixed;
+	}
+	.maincontain{
+		background-attachment: fixed;
 		
 	}
 	html {
 		overflow-x: hidden;
 		scroll-snap-type: none;
+		background-attachment: fixed;
 	}
 	.linkscontainer {
 		display: none;
@@ -130,12 +130,11 @@ body {
 		padding-left: 30px;
 		backdrop-filter: blur(15px);
 	}
-.logo{
-	font-size: 55px;
-	padding-bottom: 5px;
-}
+	.logo {
+		font-size: 55px;
+		padding-bottom: 5px;
+	}
 	#mmenu {
-		
 		position: absolute;
 		color: white;
 		display: flex;
@@ -146,7 +145,6 @@ body {
 		z-index: 2;
 	}
 	#mmenu2 {
-		
 		position: absolute;
 		color: white;
 		display: flex;
@@ -156,7 +154,6 @@ body {
 		right: 40px;
 		z-index: 2;
 	}
-	
 
 	#mmenu > div {
 		width: 36px;
@@ -211,23 +208,21 @@ body {
 
 	.hero {
 		flex-direction: column;
-		
 	}
 
 	.aboutcontainer {
-		
 		flex-direction: column;
 	}
 
 	.abouthead {
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 	.profileimage {
 		z-index: 1;
 	}
 	.aboutsection {
 		margin-top: 15px;
-		margin-right: -70px;
+		margin-right: -60px;
 		margin-left: 20px;
 		z-index: 1;
 	}
@@ -236,7 +231,7 @@ body {
 		flex-direction: column;
 	}
 	.skillcontain2 {
-		margin-top: 280px;
+		margin-top: 400px;
 		z-index: 1;
 	}
 	.skillsdesc {
@@ -244,7 +239,7 @@ body {
 	}
 	.skillright {
 		scale: 0.75;
-		margin-right: 190px;
+		margin-right: 90px;
 		margin-top: -140px;
 	}
 	.leftcontain1 {
@@ -252,13 +247,13 @@ body {
 		justify-content: center;
 		z-index: 1;
 	}
-	.rightcontain1{
+	.rightcontain1 {
 		z-index: 1;
 	}
 
 	.project1contain {
 		flex-direction: column;
-		margin-top: 450px;
+		margin-top: 520px;
 		z-index: 1;
 	}
 
@@ -279,62 +274,53 @@ body {
 
 	.projimg2 {
 		scale: 0.56;
-		
-		
 	}
-	.leftcontain2{
+	.leftcontain2 {
 		order: 2;
 		z-index: 1;
-		
 	}
-	.rightcontain2{
+	.rightcontain2 {
 		margin-top: -90px;
 		order: 1;
 		z-index: 1;
 	}
-	.projectdesc2{
+	.projectdesc2 {
 		margin-top: -70px;
 		margin-right: 20px;
 		margin-left: -40px;
-
 	}
-	.projectdesc3{
+	.projectdesc3 {
 		margin-top: -70px;
 		margin-left: 20px;
 		margin-right: -50px;
-
 	}
-	
+
 	.project3contain {
 		flex-direction: column;
 	}
-	.leftcontain3{
+	.leftcontain3 {
 		margin-top: -310px;
 		z-index: 1;
-		
 	}
-	.rightcontain3{
-		
+	.rightcontain3 {
 		z-index: 1;
 	}
 
-.contactcontain{
-	flex-direction: column;
-	margin-top: -520px;
-}
-.conform{
-	scale: 0.9;
-	
-	/* z-index: 1; */
-}
-.contactright{
-	margin-left: 0px;
-	margin-top: -40px;
-}
+	.contactcontain {
+		flex-direction: column;
+		margin-top: -520px;
+	}
+	.conform {
+		scale: 0.9;
 
-.footcontain{
-margin-top: 290px;
-}
+		/* z-index: 1; */
+	}
+	.contactright {
+		margin-left: 0px;
+		margin-top: -40px;
+	}
 
-
+	.footcontain {
+		margin-top: 290px;
+	}
 }

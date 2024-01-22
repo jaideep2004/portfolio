@@ -1,7 +1,7 @@
 #contact{
     color: white;
     height: 100vh;
-   scroll-snap-align: center;
+scroll-snap-align: center;
 }
 .contactcontain{
     display: flex;
@@ -14,7 +14,7 @@ justify-content: center;
     /* border: 1px solid white; */
     display: flex;
 	flex-direction: column;
-	padding: 25px 60px;
+	padding: 25px 80px;
 	/* z-index: 2; */
 	align-items: center;
 	justify-content: center;
@@ -30,12 +30,7 @@ justify-content: center;
 .conform{
     margin-top: -30px;
 }
-.conform>form{
-    /* border: 1px solid white; */
-    /* padding: 10px; */
-    margin-bottom: 60px;
- 
-}
+
 
 
 #conname{
@@ -99,13 +94,13 @@ justify-content: center;
 }
 .contactright{
     /* border: 1px solid white; */
-    /* flex: 0.1; */
-    margin-left: 60px;
-   margin-top: 40px;
+   
+    margin-left: 120px;
+   margin-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+   
 }
 .contactright>div{
     /* border: 1px solid wheat; */

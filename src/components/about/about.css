@@ -6,7 +6,7 @@
 .aboutcontainer{
     display: flex;
     align-items: center;
-      
+      justify-content: center;
     /* border: 1px solid white; */
      
 }
@@ -21,7 +21,7 @@
    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
-    padding: 25px 60px;
+    padding: 25px 80px;
     z-index: 2;
     align-items: center;
     justify-content: center;

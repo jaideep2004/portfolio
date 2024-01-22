@@ -8,13 +8,29 @@
 	display: flex;
 	/* flex-direction: column; */
 	align-items: center;
+	justify-content: center;
 }
+.skillcontain2 {
+	/* border: 1px solid white; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 80px;
 
+	/* z-index: 2; */
+}
+.skillhead {
+	/* border: 1px solid white; */
+	font-size: 35px;
+	font-weight: 700;
+	/* margin-top: 70px; */
+}
 .skillsdesc {
 	/* border: 1px solid white; */
 	display: flex;
-	/* z-index: 2; */
-	margin-left: 220px;
+
+	margin-left: 120px;
 	padding-top: 120px;
 }
 
@@ -28,7 +44,6 @@
 	flex-direction: column;
 	align-items: start;
 	overflow-x: hidden;
-	
 }
 .skillright > div {
 	border-top-right-radius: 10px;
@@ -44,7 +59,7 @@
 	align-items: center;
 	justify-content: center;
 
-	&:hover{
+	&:hover {
 		transform: translateX(6px);
 		box-shadow: inset 2px 0px 15px cyan;
 	}
@@ -78,23 +93,6 @@
 }
 .skillright > div:nth-child(10) {
 	width: 420px;
-}
-
-.skillcontain2 {
-	/* border: 1px solid white; */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 25px 80px;
-
-	/* z-index: 2; */
-}
-.skillhead {
-	/* border: 1px solid white; */
-	font-size: 35px;
-	font-weight: 700;
-	margin-top: 70px;
 }
 
 .pchart {

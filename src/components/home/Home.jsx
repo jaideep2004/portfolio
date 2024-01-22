@@ -16,11 +16,12 @@ export default function Home() {
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(true);
-		}, 2000);
+		}, 1500);
 	}, []);
 
 	return (
 		<div id='home' className='bg'>
+			{/* small circle animation */}
 			<div className='background'>
 				<div className='circle1'></div>
 				<div className='circle2'></div>
@@ -29,6 +30,7 @@ export default function Home() {
 				<div className='circle5'></div>
 				<div className='circle6'></div>
 			</div>
+
 			<div className='hero'>
 				<div className='name' data-aos='fade-right' data-aos-duration='400'>
 					
@@ -42,8 +44,11 @@ export default function Home() {
 						<div>
 							<TypeAnimation
 								cursor={false}
-								sequence={["Student || Front-End Developer"]}
-								speed={10}
+									sequence={[
+										'Student || Front-End Developer'
+								]}
+									speed={10}
+									
 							/>
 						</div>
 					)}
