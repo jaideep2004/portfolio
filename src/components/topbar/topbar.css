@@ -103,6 +103,8 @@ body {
 	display: none;
 }
 
+/* responsive */
+
 @media only screen and (max-width: 768px) {
 	::-webkit-scrollbar {
 		display: none;
@@ -110,16 +112,18 @@ body {
 
 	body {
 		overflow-x: hidden;
-background-attachment: fixed;
+overflow-y: hidden;
 	}
 	.maincontain{
 		background-attachment: fixed;
+		overflow-y: hidden;
 		
 	}
 	html {
 		overflow-x: hidden;
+		overflow-y: hidden;
 		scroll-snap-type: none;
-		background-attachment: fixed;
+		
 	}
 	.linkscontainer {
 		display: none;
