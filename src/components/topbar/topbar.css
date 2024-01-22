@@ -116,7 +116,7 @@ overflow-y: hidden;
 	}
 	.maincontain{
 		background-attachment: fixed;
-		overflow-y: hidden;
+		/* overflow-y: hidden; */
 		
 	}
 	html {
