@@ -12,7 +12,7 @@ export default function Project1() {
 
 	return (
 		<div id='project1'  style={{
-			backgroundImage: "url(./assets/b1.jpg)",
+			// backgroundImage: "url(./assets/b1.jpg)",
 			
 		}}>
 			<div className='project1contain'>

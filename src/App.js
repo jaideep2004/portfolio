@@ -18,7 +18,7 @@ function App() {
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);
-		}, 4000);
+		}, 3700);
 	}, []);
 
 	return (
@@ -27,7 +27,7 @@ function App() {
 				<LoadingScreen />
 			) : (
 				<main className="maincontain" style={{
-					// backgroundImage: "url(./assets/bg1.jpg)",
+					backgroundImage: "url(./assets/b1.jpg)",
 					
 				}}>
 					<Topbar />

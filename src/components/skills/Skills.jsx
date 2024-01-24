@@ -11,11 +11,11 @@ const Skills = () => {
 
 	return (
 		<div id='skills'  style={{
-			backgroundImage: "url(./assets/b1.jpg)",
+			// backgroundImage: "url(./assets/b1.jpg)",
 			
 		}}>
 			<div className='skillcontain' style={{
-			backgroundImage: "url(./assets/b1.jpg)",
+			// backgroundImage: "url(./assets/b1.jpg)",
 			
 		}}>
 				<div className='skillcontain2'>

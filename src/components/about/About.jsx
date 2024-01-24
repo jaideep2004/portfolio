@@ -13,7 +13,7 @@ export default function About() {
 		<div
 			id='about'
 			style={{
-				backgroundImage: "url(./assets/b1.jpg)",
+				// backgroundImage: "url(./assets/b1.jpg)",
 			}}>
 			<div className='aboutcontainer'>
 				<div

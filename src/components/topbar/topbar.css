@@ -116,8 +116,10 @@ body {
 	}
 	.maincontain {
 		background-attachment: fixed;
+		background-position: center;
 		overflow-y: hidden;
 		overflow-x: hidden;
+		z-index: 1;
 	}
 	html {
 		overflow-x: hidden;
@@ -130,9 +132,11 @@ body {
 	}
 
 	.topbar {
+		
 		padding-top: 1px;
 		padding-left: 30px;
 		backdrop-filter: blur(15px);
+		z-index: 2;
 	}
 	.logo {
 		font-size: 55px;

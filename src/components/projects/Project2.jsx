@@ -11,7 +11,7 @@ const Project2 = () => {
 
     return (
         <div id='project2'  style={{
-			backgroundImage: "url(./assets/b1.jpg)",
+			// backgroundImage: "url(./assets/b1.jpg)",
 			
 		}}>
             <div className='project2contain'>
