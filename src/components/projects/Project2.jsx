@@ -10,10 +10,7 @@ const Project2 = () => {
 	}, []);
 
     return (
-        <div id='project2'  style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
+        <div id='project2'  >
             <div className='project2contain'>
 				<div className='leftcontain2'>
 					<div className='projectdesc2'>

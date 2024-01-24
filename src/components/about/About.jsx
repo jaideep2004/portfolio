@@ -12,9 +12,7 @@ export default function About() {
 	return (
 		<div
 			id='about'
-			style={{
-				// backgroundImage: "url(./assets/b1.jpg)",
-			}}>
+			>
 			<div className='aboutcontainer'>
 				<div
 					className='profileimage'

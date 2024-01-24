@@ -10,10 +10,7 @@ const Project3 = () => {
     }, []);
     
     return (
-        <div id='project3'  style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
+        <div id='project3' >
              <div className='project2contain'>
 				<div className='leftcontain3'>
                 <div className='projimg2'  data-aos="flip-left" data-aos-duration='500'>

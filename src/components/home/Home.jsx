@@ -20,10 +20,7 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div id='home' className='bg' style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
+		<div id='home' className='bg' >
 			{/* small circle animation */}
 			<div className='background'>
 				<div className='circle1'></div>

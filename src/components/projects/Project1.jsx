@@ -11,10 +11,7 @@ export default function Project1() {
 	}, []);
 
 	return (
-		<div id='project1'  style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
+		<div id='project1' >
 			<div className='project1contain'>
 				<div className='leftcontain1'>
 					<div className='projecthead'>

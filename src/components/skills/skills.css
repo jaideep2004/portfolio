@@ -2,9 +2,7 @@
 	color: white;
 	height: 100vh;
 	scroll-snap-align: center;
-	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	
 }
 
 .skillcontain {
@@ -12,9 +10,7 @@
 	/* flex-direction: column; */
 	align-items: center;
 	justify-content: center;
-	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	
 }
 .skillcontain2 {
 	/* border: 1px solid white; */
@@ -24,13 +20,12 @@
 	justify-content: center;
 	padding: 25px 80px;
 
-	/* z-index: 2; */
+	
 }
 .skillhead {
 	/* border: 1px solid white; */
 	font-size: 35px;
 	font-weight: 700;
-	/* margin-top: 70px; */
 }
 .skillsdesc {
 	/* border: 1px solid white; */

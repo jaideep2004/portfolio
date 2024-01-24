@@ -11,7 +11,11 @@ const LoadingScreen = () => {
 	}, []);
 
 	return (
-		<div className='animatecontain'>
+		<div className='animatecontain'
+		style={{
+			// backgroundImage: "url(./assets/b1.jpg)",
+			
+		}}>
 			<div className='ringcontain'  data-aos="zoom-in" >
 				<div className='ringN'>
 					<div className='ring2'>J</div>

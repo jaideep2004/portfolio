@@ -2,25 +2,19 @@
 	color: white;
 	height: 100vh;
 	scroll-snap-align: center;
-	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	
 }
 #project2 {
 	color: white;
 	height: 100vh;
 	scroll-snap-align: center;
-	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	
 }
 #project3 {
 	color: white;
 	height: 100vh;
 	scroll-snap-align: center;
-	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	
 }
 
 .project1contain {

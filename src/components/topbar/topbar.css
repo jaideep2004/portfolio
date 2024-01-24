@@ -4,6 +4,7 @@ body {
 	background-color: black;
 	font-family: "Nunito", sans-serif;
 	overflow-x: hidden;
+	
 }
 ::-webkit-scrollbar {
 	width: 8px;
@@ -109,34 +110,30 @@ body {
 	::-webkit-scrollbar {
 		display: none;
 	}
-
-	body {
-		overflow-x: hidden;
-		overflow-y: hidden;
-	}
-	.maincontain {
-		background-attachment: fixed;
-		background-position: center;
-		overflow-y: hidden;
-		overflow-x: hidden;
-		z-index: 1;
-	}
+body{
+	margin: 0;
+	padding: 0;
+}
 	html {
-		overflow-x: hidden;
-		
+		margin: 0;
+		padding: 0;
+		scroll-behavior: smooth;
 		scroll-snap-type: none;
 	}
 	
+
+	
+
 	.linkscontainer {
 		display: none;
 	}
 
 	.topbar {
-		
+		position: fixed;
 		padding-top: 1px;
 		padding-left: 30px;
-		backdrop-filter: blur(15px);
-		z-index: 2;
+		
+		
 	}
 	.logo {
 		font-size: 55px;
@@ -213,7 +210,7 @@ body {
 	}
 	#name1 > div {
 		width: 240px;
-		height: 170px;
+		height: 160px;
 	}
 
 	.hero {
@@ -323,7 +320,7 @@ body {
 	.conform {
 		scale: 0.9;
 
-		/* z-index: 1; */
+		
 	}
 	.contactright {
 		margin-left: 0px;

@@ -5,16 +5,11 @@ html {
 
 #home {
 	scroll-snap-align: center;
-	height: 100vh;
-	
+	/* height: 100vh; */
+	overscroll-behavior-block: contain;
 }
 
-.bg{
-	background-size: (100%,100%);
-	background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+
 
 .background {
 	position: absolute;
@@ -167,7 +162,7 @@ html {
 	font-weight: 800;
 	align-items: center;
 	transition: all 0.5s ease;
-	z-index: 2;
+	
 
 	justify-content: center;
 	padding: 25px 80px;
@@ -242,7 +237,7 @@ text-align: center;
 .heroimage {
 	font-size: 40px;
 	/* border: 1px solid white; */
-	z-index: 2;
+	
 	margin-left: 120px;
 }
 

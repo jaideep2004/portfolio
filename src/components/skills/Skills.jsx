@@ -10,14 +10,8 @@ const Skills = () => {
 	}, []);
 
 	return (
-		<div id='skills'  style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
-			<div className='skillcontain' style={{
-			// backgroundImage: "url(./assets/b1.jpg)",
-			
-		}}>
+		<div id='skills'  >
+			<div className='skillcontain'>
 				<div className='skillcontain2'>
 					<div className='skillhead'>
 						<h2>My Skills</h2>

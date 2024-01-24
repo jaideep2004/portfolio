@@ -6,7 +6,7 @@ import About from "./components/about/About";
 import Topbar from "./components/topbar/Topbar";
 import LoadingScreen from "./components/loadingscreen/LoadingScreen";
 import { useState, useEffect } from "react";
-import "./components/home/home.css"
+import "./components/home/home.css";
 import Skills from "./components/skills/Skills";
 import Project1 from "./components/projects/Project1";
 import Project3 from "./components/projects/Project3";
@@ -26,36 +26,38 @@ function App() {
 			{loading ? (
 				<LoadingScreen />
 			) : (
-				<main className="maincontain" style={{
-					backgroundImage: "url(./assets/b1.jpg)",
-					
-				}}>
+				<main
+					className='maincontain'
+					style={{
+						backgroundImage: "url(./assets/b1.jpg)",
+					}}>
 					<Topbar />
 					<Home />
 					<About />
-<Skills/>
-<Project1/>
-					<Project2/>
-					<Project3/>
-						<Contact />
-						<Footer/>
+					<Skills />
+					<Project1 />
+					<Project2 />
+					<Project3 />
+					<Contact />
+					<Footer />
 				</main>
 			)}
 
-{/* <main className="maincontain" style={{
-					backgroundImage: "url(./assets/bg3.jpg)",
-					
+			{/* <main
+				className='maincontain'
+				style={{
+					// backgroundImage: "url(./assets/b1.jpg)",
 				}}>
-					<Topbar />
-					<Home />
-					<About />
-<Skills/>
-					<Project1/>
-					<Project2/>
-					<Project3/>
-					<Contact />
+				<Topbar />
+				<Home />
+				<About />
+				<Skills />
+				<Project1 />
+				<Project2 />
+				<Project3 />
+				<Contact />
+				<Footer/>
 			</main> */}
-			
 		</div>
 	);
 }

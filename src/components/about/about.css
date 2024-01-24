@@ -2,9 +2,7 @@
     color: white;
     height: 100vh;
     scroll-snap-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  
 }
 .aboutcontainer{
     display: flex;
@@ -25,7 +23,7 @@
     display: flex;
     flex-direction: column;
     padding: 25px 80px;
-    z-index: 2;
+   
     align-items: center;
     justify-content: center;
    
@@ -36,9 +34,9 @@ width: 260px;
 height: 260px;
 backdrop-filter: blur(10px);
 display: flex;
-/* position: absolute; */
+
 border-radius: 10px;
-/* transition: all 4s ease; */
+transition: all 2s ease;
 box-shadow: 2px 2px  5px cyan inset;
 transform: translateZ(0);
 animation: changebg 4s infinite linear;
@@ -72,7 +70,7 @@ animation: changebg 4s infinite linear;
     margin-left: 10px;
    text-align: center;
    padding-right: 80px;
-   z-index: 2;
+  
    
 }
 .aboutdesc{
