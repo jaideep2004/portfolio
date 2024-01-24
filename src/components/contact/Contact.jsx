@@ -11,7 +11,10 @@ export default function Contact() {
 	}, []);
 	
 	return (
-		<div id='contact'>
+		<div id='contact'  style={{
+			backgroundImage: "url(./assets/b1.jpg)",
+			
+		}}>
 			<div className='contactcontain'>
 				<div className='contactleft'>
 					<div className='contacthead'>

@@ -124,6 +124,7 @@ body {
 		
 		scroll-snap-type: none;
 	}
+	
 	.linkscontainer {
 		display: none;
 	}
@@ -208,6 +209,7 @@ body {
 	}
 	#name1 > div {
 		width: 240px;
+		height: 170px;
 	}
 
 	.hero {
@@ -219,7 +221,7 @@ body {
 	}
 
 	.abouthead {
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 	.profileimage {
 		z-index: 1;

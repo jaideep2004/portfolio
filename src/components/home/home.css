@@ -5,8 +5,14 @@ html {
 
 #home {
 	scroll-snap-align: center;
-	height: 100vh;
-	transition: all 2s ease;
+	height: 95vh;
+	
+}
+
+.bg{
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .background {
@@ -171,7 +177,8 @@ html {
 }
 #name1 {
 	width: 400px;
-	/* border: 1px solid cyan; */
+	
+	/* border: 1px solid white; */
 text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -216,8 +223,9 @@ text-align: center;
 
 #name1 > div {
 	/* border: 1px solid white; */
+	height: 110px;
 	padding: 11px 8px ;
-	transition: all 3s ease;
+	transition: all 1s ease;
 	animation: rgbanimate 3s ease infinite;
 	background: linear-gradient(black, black) padding-box,
 		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)

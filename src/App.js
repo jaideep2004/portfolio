@@ -27,7 +27,7 @@ function App() {
 				<LoadingScreen />
 			) : (
 				<main className="maincontain" style={{
-					backgroundImage: "url(./assets/b2.webp)",
+					// backgroundImage: "url(./assets/bg1.jpg)",
 					
 				}}>
 					<Topbar />

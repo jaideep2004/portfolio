@@ -20,7 +20,10 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div id='home' className='bg'>
+		<div id='home' className='bg' style={{
+			backgroundImage: "url(./assets/b1.jpg)",
+			
+		}}>
 			{/* small circle animation */}
 			<div className='background'>
 				<div className='circle1'></div>
@@ -32,7 +35,7 @@ export default function Home() {
 			</div>
 
 			<div className='hero'>
-				<div className='name' data-aos='fade-right' data-aos-duration='400'>
+				<div className='name' data-aos='fade-right' data-aos-duration='500'>
 					
 						<div className='typeanimation'>
 							JAIDEEP SINGH
@@ -41,13 +44,14 @@ export default function Home() {
 					
 					<div id='name1'>
 					{loading && (
-						<div>
+						<div  data-aos='fade-right' data-aos-duration='500'>
 							<TypeAnimation
+							
 								cursor={false}
 									sequence={[
 										'Student || Front-End Developer'
 								]}
-									speed={10}
+									speed={5}
 									
 							/>
 						</div>

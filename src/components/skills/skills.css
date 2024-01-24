@@ -2,6 +2,9 @@
 	color: white;
 	height: 100vh;
 	scroll-snap-align: center;
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .skillcontain {
@@ -9,6 +12,9 @@
 	/* flex-direction: column; */
 	align-items: center;
 	justify-content: center;
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .skillcontain2 {
 	/* border: 1px solid white; */
@@ -51,8 +57,8 @@
 	margin: 8px 0px;
 	transition: all 0.5s ease;
 	height: 35px;
-	background-color: transparent;
-	backdrop-filter: blur(15px);
+	background-color: black;
+	backdrop-filter: blur(20px);
 	box-shadow: inset 2px 2px 15px cyan;
 	font-size: 22px;
 	display: flex;
@@ -61,6 +67,7 @@
 
 	&:hover {
 		transform: translateX(6px);
+		transform: translateX(-6px);
 		box-shadow: inset 2px 0px 15px cyan;
 	}
 }
