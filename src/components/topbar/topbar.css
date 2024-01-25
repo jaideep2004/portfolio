@@ -4,7 +4,7 @@ body {
 	background-color: black;
 	font-family: "Nunito", sans-serif;
 	overflow-x: hidden;
-	transition: all 5s ease;
+	
 }
 
 ::-webkit-scrollbar {
@@ -120,15 +120,6 @@ body {
 	body{
 		margin: 0;
 		padding: 0;
-		animation: updown 30s  infinite linear;
-	}
-	@keyframes updown {
-		0% {
-			background-position: center;
-		  }
-		  100% {
-			background-position: 100% 100%;
-		  }
 	}
 
 	.linkscontainer {
