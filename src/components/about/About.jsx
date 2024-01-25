@@ -11,8 +11,7 @@ export default function About() {
 
 	return (
 		<div
-			id='about'
-			>
+			id='about'>
 			<div className='aboutcontainer'>
 				<div
 					className='profileimage'

@@ -18,7 +18,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 25px 80px;
+	padding: 25px 90px;
 
 	
 }
@@ -31,7 +31,7 @@
 	/* border: 1px solid white; */
 	display: flex;
 
-	margin-left: 120px;
+	margin-left: 85px;
 	padding-top: 120px;
 }
 
@@ -50,11 +50,11 @@
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin: 8px 0px;
-	transition: all 0.5s ease;
+	transition: all 2s ease;
 	height: 35px;
-	background-color: black;
-	backdrop-filter: blur(20px);
-	box-shadow: inset 2px 2px 15px cyan;
+	/* background-color: black; */
+	backdrop-filter: blur(60px);
+	box-shadow: 2px 2px 5px cyan;
 	font-size: 22px;
 	display: flex;
 	align-items: center;
@@ -62,8 +62,8 @@
 
 	&:hover {
 		transform: translateX(6px);
-		transform: translateX(-6px);
-		box-shadow: inset 2px 0px 15px cyan;
+		
+		box-shadow: inset 2px 2px 5px cyan;
 	}
 }
 .skillright > div:nth-child(1) {

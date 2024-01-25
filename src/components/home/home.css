@@ -5,23 +5,27 @@ html {
 
 #home {
 	scroll-snap-align: center;
-	/* height: 100vh; */
-	overscroll-behavior-block: contain;
+	height: 100vh;
 }
 
-
-
 .background {
-	position: absolute;
-	
+	transition: all 0.3s ease;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
+	/* border: 1px solid white; */
+	position: fixed;
+
 	display: flex;
-	background-color: black;
+	/* background-color: white; */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	align-items: center;
 }
+
 .circle1 {
+	color: white;
 	width: 9px;
 	height: 9px;
 	position: absolute;
@@ -157,30 +161,32 @@ html {
 	/* border: 1px solid white; */
 	display: flex;
 	flex-direction: column;
-	color: cyan;
-	font-size: 40px;
-	font-weight: 800;
+	color: white;
+
 	align-items: center;
 	transition: all 0.5s ease;
-	
-
 	justify-content: center;
 	padding: 25px 80px;
 }
-.typeanimation {
+.name1 {
+	font-size: 40px;
+	font-weight: 800;
 	transition: all 0.5s ease;
 	padding: 10px 20px;
+	background: linear-gradient(black, black) padding-box,
+		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
+			border-box;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	animation: rgbanimate 3s ease infinite;
 }
-#name1 {
+#typeanimation {
 	width: 400px;
-	
+
 	/* border: 1px solid white; */
-text-align: center;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
-	font-size: 40px;
-	font-weight: 700;
-	color: white;
 
 	align-items: center;
 	justify-content: center;
@@ -217,17 +223,21 @@ text-align: center;
 	}
 }
 
-#name1 > div {
-	/* border: 1px solid white; */
+#typeanimation > div {
 	height: 110px;
-	padding: 11px 8px ;
+	color: white;
+	font-size: 37px;
+	font-weight: 800;
+	/* border: 1px solid white; */
+	backdrop-filter: blur(10px);
+	padding: 11px 8px;
 	transition: all 1s ease;
-	animation: rgbanimate 3s ease infinite;
-	background: linear-gradient(black, black) padding-box,
+
+	/* background: linear-gradient(black, black) padding-box,
 		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
 			border-box;
 	border: 2px solid transparent;
-	border-radius: 8px;
+	border-radius: 8px; */
 
 	&:hover {
 		transform: translateX(-3px);
@@ -237,7 +247,7 @@ text-align: center;
 .heroimage {
 	font-size: 40px;
 	/* border: 1px solid white; */
-	
+
 	margin-left: 120px;
 }
 

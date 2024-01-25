@@ -13,7 +13,13 @@ import Project3 from "./components/projects/Project3";
 import Project2 from "./components/projects/Project2";
 import Footer from "./components/footer/Footer";
 
+
+
 function App() {
+
+	
+	
+
 	const [loading, setLoading] = useState(true);
 	useEffect(() => {
 		setTimeout(() => {
@@ -26,11 +32,8 @@ function App() {
 			{loading ? (
 				<LoadingScreen />
 			) : (
-				<main
-					className='maincontain'
-					style={{
-						backgroundImage: "url(./assets/b1.jpg)",
-					}}>
+				
+				<main className='maincontain'>
 					<Topbar />
 					<Home />
 					<About />
@@ -42,13 +45,10 @@ function App() {
 					<Footer />
 				</main>
 			)}
-
-			{/* <main
-				className='maincontain'
-				style={{
-					// backgroundImage: "url(./assets/b1.jpg)",
-				}}>
-				<Topbar />
+{/* <Topbar />
+			<main
+				className='maincontain' >
+				
 				<Home />
 				<About />
 				<Skills />
@@ -58,6 +58,8 @@ function App() {
 				<Contact />
 				<Footer/>
 			</main> */}
+
+
 		</div>
 	);
 }

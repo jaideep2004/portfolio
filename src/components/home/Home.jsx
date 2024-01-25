@@ -22,7 +22,9 @@ export default function Home() {
 	return (
 		<div id='home' className='bg' >
 			{/* small circle animation */}
-			<div className='background'>
+
+			<div className='background'  >
+				
 				<div className='circle1'></div>
 				<div className='circle2'></div>
 				<div className='circle3'></div>
@@ -34,14 +36,17 @@ export default function Home() {
 			<div className='hero'>
 				<div className='name' data-aos='fade-right' data-aos-duration='500'>
 					
-						<div className='typeanimation'>
+						<div className='name1'>
 							JAIDEEP SINGH
 							
 						</div>
 					
-					<div id='name1'>
-					{loading && (
-						<div  data-aos='fade-right' data-aos-duration='500'>
+					<div id='typeanimation'>
+					
+						{loading && (
+							
+							<div data-aos='fade-right' data-aos-duration='500'>
+								
 							<TypeAnimation
 							
 								cursor={false}
