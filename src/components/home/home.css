@@ -13,7 +13,7 @@ html {
 	z-index: -1;
 	width: 100vw;
 	height: 100vh;
-	/* border: 1px solid white; */
+	/* border: 10px solid white; */
 	position: fixed;
 
 	display: flex;
@@ -22,10 +22,16 @@ html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	align-items: center;
+	
+
+}
+.background>img{
+	width: 100vw;
+	height: 100vh;
 }
 
 .circle1 {
-	color: white;
+	
 	width: 9px;
 	height: 9px;
 	position: absolute;
@@ -161,24 +167,24 @@ html {
 	/* border: 1px solid white; */
 	display: flex;
 	flex-direction: column;
-	color: white;
+	
 
 	align-items: center;
 	transition: all 0.5s ease;
 	justify-content: center;
 	padding: 25px 80px;
+	
+	
 }
 .name1 {
-	font-size: 40px;
+	font-size: 42px;
 	font-weight: 800;
 	transition: all 0.5s ease;
 	padding: 10px 20px;
-	background: linear-gradient(black, black) padding-box,
-		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
-			border-box;
-	border: 2px solid transparent;
+	backdrop-filter: blur(10px);
 	border-radius: 8px;
-	animation: rgbanimate 3s ease infinite;
+	color: white;
+	
 }
 #typeanimation {
 	width: 400px;
@@ -224,24 +230,25 @@ html {
 }
 
 #typeanimation > div {
-	height: 110px;
+	height: 95px;
 	color: white;
 	font-size: 37px;
 	font-weight: 800;
+	border-radius: 10px;
 	/* border: 1px solid white; */
-	backdrop-filter: blur(10px);
+	
 	padding: 11px 8px;
 	transition: all 1s ease;
 
-	/* background: linear-gradient(black, black) padding-box,
+	background: linear-gradient(black, black) padding-box,
 		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
 			border-box;
 	border: 2px solid transparent;
-	border-radius: 8px; */
-
+	border-radius: 8px;
+	animation: rgbanimate 3s ease infinite;
 	&:hover {
-		transform: translateX(-3px);
-		transform: translateY(-3px);
+		transform: translateX(5px);
+		
 	}
 }
 .heroimage {
@@ -250,6 +257,22 @@ html {
 
 	margin-left: 120px;
 }
+.monitorbg{
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	position: absolute;
+	width: 410px;
+	height: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: inset 2px 2px 5px cyan;
+	z-index: -1;
+top: 370px;
+left: 50px;
+	
+}
+
+
+
 
 .imgcontain > div {
 	position: absolute;

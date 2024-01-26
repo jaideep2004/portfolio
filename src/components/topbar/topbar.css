@@ -122,6 +122,14 @@ body {
 		padding: 0;
 	}
 
+	.background>img{
+		width: auto;
+		height: 100vh;
+	}
+	
+
+
+
 	.linkscontainer {
 		display: none;
 	}
@@ -206,10 +214,10 @@ body {
 	}
 	.name {
 		z-index: 1;
-		margin-top: 30px;
+		/* margin-top: 30px; */
 	}
-	#name1 > div {
-		width: 240px;
+	#typeanimation > div {
+		width: 280px;
 		height: 160px;
 	}
 
@@ -222,7 +230,7 @@ body {
 	}
 
 	.abouthead {
-		margin-top: 60px;
+		margin-top: -30px;
 	}
 	.profileimage {
 		z-index: 1;
@@ -238,7 +246,7 @@ body {
 		flex-direction: column;
 	}
 	.skillcontain2 {
-		margin-top: 380px;
+		margin-top: 290px;
 		z-index: 1;
 	}
 	.skillsdesc {
@@ -261,7 +269,7 @@ body {
 
 	.project1contain {
 		flex-direction: column;
-		margin-top: 520px;
+		margin-top: 410px;
 		z-index: 1;
 	}
 
@@ -288,7 +296,7 @@ body {
 		z-index: 1;
 	}
 	.rightcontain2 {
-		margin-top: -90px;
+		margin-top: -110px;
 		order: 1;
 		z-index: 1;
 	}
@@ -307,7 +315,7 @@ body {
 		flex-direction: column;
 	}
 	.leftcontain3 {
-		margin-top: -310px;
+		margin-top: -350px;
 		z-index: 1;
 	}
 	.rightcontain3 {
@@ -316,7 +324,7 @@ body {
 
 	.contactcontain {
 		flex-direction: column;
-		margin-top: -520px;
+		margin-top: -570px;
 	}
 	.conform {
 		scale: 0.9;
@@ -329,6 +337,6 @@ body {
 	}
 
 	.footcontain {
-		margin-top: 290px;
+		margin-top: 270px;
 	}
 }

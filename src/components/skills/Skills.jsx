@@ -33,7 +33,7 @@ const Skills = () => {
 
 				<div className='skillsdesc'>
 					
-					<div className='skillright' data-aos='zoom-in-up' data-aos-duration='500'>
+					<div className='skillright' >
 						<div>HTML</div>
 						<div>CSS</div>
 						<div>JavaScript</div>

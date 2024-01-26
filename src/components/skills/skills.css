@@ -52,10 +52,10 @@
 	margin: 8px 0px;
 	transition: all 2s ease;
 	height: 35px;
-	/* background-color: black; */
-	backdrop-filter: blur(60px);
-	box-shadow: 2px 2px 5px cyan;
+	background-color: cyan;
+	color: black;
 	font-size: 22px;
+	font-weight: 700;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -63,7 +63,7 @@
 	&:hover {
 		transform: translateX(6px);
 		
-		box-shadow: inset 2px 2px 5px cyan;
+		
 	}
 }
 .skillright > div:nth-child(1) {
@@ -131,13 +131,15 @@
 	margin: 2px;
 }
 .pchart3 {
+	backdrop-filter: blur(20px);
 	border: 1px solid white;
 	width: 270px;
 	height: 270px;
 	border-radius: 50%;
 	position: absolute;
 	transition: all 0.5s ease;
-	background-image: linear-gradient(to right, cyan 80%, transparent 30%);
+	box-shadow: inset 175px 5px  10px cyan ;
+	/* background-image: linear-gradient(to right, cyan 80%, transparent 30%); */
 
 	&:hover {
 		transform: rotateZ(60deg);

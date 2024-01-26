@@ -23,8 +23,8 @@ export default function Home() {
 		<div id='home' className='bg' >
 			{/* small circle animation */}
 
-			<div className='background'  >
-				
+			<div className='background' >
+				<img src="./assets/bg8.jpg" alt="" />
 				<div className='circle1'></div>
 				<div className='circle2'></div>
 				<div className='circle3'></div>
@@ -63,6 +63,7 @@ export default function Home() {
 				</div>
 
 				<div className='heroimage' data-aos='zoom-in' data-aos-duration='400'>
+					<div className="monitorbg"></div>
 					<Monitor />
 				</div>
 			</div>
