@@ -38,7 +38,7 @@ export default function Contact() {
         <div className="contactright">
           <div>
             <i class="fa-solid fa-user fa-xl"></i>
-            <a href="https://drive.google.com/file/d/1O80fin5pzHsDHBHZ0OXJ8XUZJcATRQtl/view?usp=sharing ">Resume</a>
+            <a href="https://drive.google.com/file/d/10QzdEWfq9DpQMTp9XlEz1OSAaIZBv5uT/view?usp=sharing ">Resume</a>
           </div>
           <div>
             <i class="fa-brands fa-github fa-2xl"></i>
